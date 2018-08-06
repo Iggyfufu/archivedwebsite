@@ -4,6 +4,7 @@ import './App.css';
 
 import Navbar from './Components/Navbar';
 import Routes from './Routes';
+import Sidebar from './Components/Sidebar';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
       <HashRouter>
         <div className="App">
           <Navbar />
+          <Sidebar />
           <Routes />
         </div>
       </HashRouter>
